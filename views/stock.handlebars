@@ -1,0 +1,22 @@
+<div class="is-flex is-justify-content-center is-align-items-center">
+  <div class="block">
+    {{bagel_name}}
+  </div>
+  <div class="block">
+    {{description}}
+  </div>
+  <div class="block">
+    <img src="/images/{{filename}}" alt="{{description}}" />
+  </div>
+  <div class="block">
+    <div>
+      <form>
+        Current Stock:
+        <input type="number" placeholder="{{stock}}" id="stock" name="stock" />
+        <button type="submit" class="button is-success stock" data-id={{id}}>
+          Update
+        </button>
+      </form>
+    </div>
+  </div>
+</div>

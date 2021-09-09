@@ -6,9 +6,9 @@
   padding: 3rem;
 }
 
-body {
+.image {
   background-image: url("../images/homepage-bagel.jpg");
   background-repeat: no-repeat;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
   background-size: cover;
 }
