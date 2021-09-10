@@ -57,9 +57,9 @@ to test the program
 
 ## Questions
 
-Contact nicholaswojt@outlook.com for any questions.
+Contact nicholaswojt@outlook.com, eaim928@gmail.com, nataliescott94@yahoo.com, or jakeladamson0@gmail.com for any questions.
 
-Github username: nickwojt
+Contributor's github usernames: nickwojt, gim928, JKLA13, nascott94
 
-Link to my github profile: https://github.com/nickwojt
+Links to contributor's github profiles: https://github.com/nickwojt, https://github.gim928, https://github.com/JKLA13, https://github.com/nascott94
 
