@@ -7,7 +7,6 @@ if (document.getElementById("bagel-parent")) {
         console.log(event.target.matches(".bagel-card"));
         let id = event.target.dataset.id;
         id = parseInt(id);
-        console.log(id);
         location.replace(`/api/bagel/${id}`);
       }
     });
@@ -18,10 +17,8 @@ if (document.querySelector(".stock")) {
     .querySelector(".stock")
     .addEventListener("click", async function (event) {
       event.preventDefault();
-      console.log("stock click");
       const value = document.getElementById("stock").value;
       let id = event.target.dataset.id;
-      console.log({ value, id });
       const updateData = {
         stock: value,
       };
@@ -32,7 +29,6 @@ if (document.querySelector(".stock")) {
       });
       if (response.ok) {
         document.location.reload();
-        console.log("response ok");
       } else {
         alert("Failed to get bagel data.");
       }

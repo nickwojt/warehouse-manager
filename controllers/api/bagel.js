@@ -22,10 +22,8 @@ router.get("/", withAuth, async (req, res) => {
 // When a card is clicked, use this route to display an individual bagel
 router.get("/:id", async (req, res) => {
   try {
-    console.log("bagel work?");
     const getBagel = await Bagel.findByPk(req.params.id);
     const bagel = getBagel.get({ plain: true });
-    console.log(bagel);
     res.render("stock", { ...bagel, loggedIn: req.session.loggedIn });
   } catch (err) {
     console.log(err);
@@ -34,8 +32,6 @@ router.get("/:id", async (req, res) => {
 });
 
 router.put("/:id/stock", async (req, res) => {
-  console.log(req.params);
-  console.log(req.body);
   try {
     const bagelUpdate = await Bagel.update(
       {
@@ -47,7 +43,6 @@ router.put("/:id/stock", async (req, res) => {
         },
       }
     );
-    console.log("bagel update", bagelUpdate);
     res.json(bagelUpdate);
   } catch (err) {
     console.log(err);
