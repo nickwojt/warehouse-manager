@@ -4,6 +4,8 @@
 
 This application is used for business owners to keep track of their inventory and update as neccessary. This is a full stack app built from scratch using Express.js, node.js, sequelize, mysql2, bcrpyt, handlebars, vanilla JavaScript, and the Bulma.io CSS framework. This app is deployed using Heroku.  
 
+LINK TO DEPLOYED APPLICATION: https://warehouse-manager-nw.herokuapp.com/
+
 
 
 
