@@ -10,7 +10,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 3rem;
-  position: fixed;
+  position: sticky;
   bottom: 0;
 }
 
