@@ -1,14 +1,50 @@
+*,
+*::before,
+*::after {
+  font-family: "Ubuntu", sans-serif;
+}
+
 .footer {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 3rem;
+  position: fixed;
+  bottom: 0;
 }
 
-.image {
+.imagetrees {
   background-image: url("../images/homepage-bagel.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  height: 78vh;
+}
+
+.navbar {
+  background-color: slategray;
+}
+
+.navbar-item {
+  color: white;
+}
+
+.label {
+  text-align: center;
+}
+
+.dogbark {
+  max-width: 50%;
+  max-height: 50%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.heller:hover {
+  box-shadow: 0 0 10px black;
 }

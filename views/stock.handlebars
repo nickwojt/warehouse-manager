@@ -1,16 +1,16 @@
-<div class="is-flex is-justify-content-center is-align-items-center">
-  <div class="block">
+<div class="is-flex is-flex-direction-column is-justify-content-center is-align-items-center">
+  <div class="block is-size-1">
     {{bagel_name}}
   </div>
-  <div class="block">
+  <div class="block is-size-3">
     {{description}}
   </div>
-  <div class="block">
-    <img src="/images/{{filename}}" alt="{{description}}" />
+  <div class="block dogbark ">
+    <img src="/images/{{filename}}" alt="{{description}}"  />
   </div>
   <div class="block">
     <div>
-      <form>
+      <form class="form">
         Current Stock:
         <input type="number" placeholder="{{stock}}" id="stock" name="stock" />
         <button type="submit" class="button is-success stock" data-id={{id}}>
